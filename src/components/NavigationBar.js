@@ -4,15 +4,15 @@ import { Nav, Navbar, Form, FormControl } from 'react-bootstrap';
 
 
 const Styles = styled.div`
-  .navbar { background-color: #222; }
+  .navbar { background-color: #fefefe; }
   a, .navbar-nav, .navbar-light .nav-link {
-    color: #9FFFCB;
-    &:hover { color: white; }
+    color: #000;
+    &:hover { color: peachpuff; }
   }
   .navbar-brand {
-    font-size: 1.4em;
-    color: #9FFFCB;
-    &:hover { color: white; }
+    font-size: 1.3em;
+    color: #000;
+    /* &:hover { color: peachpuff; } */
   }
   .form-center {
     position: absolute !important;
